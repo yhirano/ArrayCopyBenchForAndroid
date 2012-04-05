@@ -344,10 +344,10 @@ public class MainActivity extends Activity {
                         + title + " :\n");
                 mResultTextView.setText(mResultTextView.getText()
                         + "\taverage " + String.format("%.2f", benchResult.average() / 1000d)
-                        + " msec\n");
+                        + " microsec\n");
                 mResultTextView.setText(mResultTextView.getText()
                         + "\ttotal "
-                        + String.format("%.2f", benchResult.total() / 1000d) + " msec\n");
+                        + String.format("%.2f", benchResult.total() / 1000d) + " microsec\n");
             }
         });
     }
