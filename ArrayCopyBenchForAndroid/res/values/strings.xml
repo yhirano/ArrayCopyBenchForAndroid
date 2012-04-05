@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Array Copy Bench</string>
+    <string name="array_type">Array type</string>
+    <string name="array_length">Array length</string>
+    <string name="bench_times">Times</string>
+    <string name="start">Start</string>
+    <string name="benchmarking">Benchmarking</string>
+
+    <string-array name="array_type_list">
+        <item>byte</item>
+        <item>short</item>
+        <item>int</item>
+        <item>long</item>
+        <item>double</item>
+        <item>Object</item>
+        <item>Byte</item>
+        <item>Integer</item>
+        <item>Long</item>
+        <item>Double</item>
+    </string-array>
+    <string-array name="array_length_list">
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>50000</item>
+        <item>100000</item>
+        <item>500000</item>
+    </string-array>
+    <string-array name="bench_times_list">
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+    </string-array>
+
+</resources>
